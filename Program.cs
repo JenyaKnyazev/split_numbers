@@ -11,7 +11,7 @@ namespace ConsoleApplication29
         static string split_number(int x, int y) {
             int x2, y2,div=2;
             string res=x+"/"+y+" = ";
-            if (x > y) {
+            if (x >= y) {
                 res += x / y + " ";
                 x = x % y;
             }
